@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image gallery</title>
+  <link rel="stylesheet" href="./style.css">
+  <!-- tip-calculator js -->
+  <script type="module" src="./script.js" defer></script>
+  <!-- font awesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+  <!-- Project code -->
+  <main id="app" data-project-name="image-gallery">
+    <header class="header">
+      <h3 class="title">Image gallery</h3>
+      <form action="">
+        <div class="search-field">
+          <div class="input-field">
+            <i class="fa fa-search"></i>
+            <input type="search" placeholder="search img . . .">
+          </div>
+        </div>
+      </form>
+      <span class="api-name">powered by Pixabay</span>
+    </header>
+    <!-- all categories -->
+    <div class="all-categories">
+      <div class="left-button"><i class="fa fa-angle-left" id="left"></i></div>
+      <div class="right-button"><i class="fa fa-angle-right" id="right"></i></div>
+      <ul>
+        <!-- <li>categories</li> -->
+      </ul>
+    </div>
+    <!-- section gallery -->
+    <section>
+      <div class="filter">
+        <ul>
+          <!-- <li>filter</li> -->
+        </ul>
+      </div>
+      <div id="gallery"></div>
+      <!-- <div class="img-container">
+        <img src="" alt="">
+      </div> -->
+    </section>
+
+    <!-- light box -->
+    <!-- <div class="light-box-container">
+      <div class="big-img">
+        <img src="https://pixabay.com/get/g7d4758c00434a88a874f5395711724a888b4db27c075a6d2d84d66270453762266f5c88272c83736798cf007ce2ea7bf38474572808de169d210880a4cd68d5b_1280.jpg" alt="">
+      </div>
+      <div class="img-control-panel">
+        <div class="user">
+          <div class="user-img">
+            <img src="" alt="">
+          </div>
+          <h3>name</h3>
+        </div>
+        <div class="download-buttons">
+          <div class="fullHd">full hd</div>
+          <div class="halfHd">half hd</div>
+          <div class="lowHd">low hd</div>
+          <button type="button">download image</button>
+        </div>
+      </div>
+    </div> -->
+  </main>
+</body>
+
+</html>
